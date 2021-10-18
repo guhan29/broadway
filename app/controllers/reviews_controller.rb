@@ -1,4 +1,4 @@
-class ReviewsController < 
+class ReviewsController < ApplicationController
   before_action :find_play
 
   def new
